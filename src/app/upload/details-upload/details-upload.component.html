@@ -1,11 +1,4 @@
-<!--<a href="{{fileUpload.url}}">{{fileUpload.name}}</a>-->
-<body>
-    <tr>
-        <th><button (click)='deleteFileUpload(fileUpload)' class="btn btn-danger btn-xs" style="float: right">Delete</button>
-        </th>
-        <th>{{fileUpload.name}}</th>
-        <th><button (click)=' download(fileUpload)' style="float: left">Download</button></th>
-    </tr>
-</body>
-<!--<button (click)='deleteFileUpload(fileUpload)' class="btn btn-danger btn-xs" style="float: right">Delete</button>
-<button (click)=' download(fileUpload)' style="float: left">Download</button>-->
+<a href="{{fileUpload.url}}">{{fileUpload.name}}</a>
+
+<button (click)='deleteFileUpload(fileUpload)' class="btn btn-danger btn-xs" style="float: right">Delete</button>
+<button (click)=' download(fileUpload)' style="float: left">Download</button>
